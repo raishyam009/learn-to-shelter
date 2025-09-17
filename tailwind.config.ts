@@ -47,6 +47,20 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        /* Emergency alert system */
+        alert: {
+          critical: "hsl(var(--alert-critical))",
+          warning: "hsl(var(--alert-warning))",
+          success: "hsl(var(--alert-success))",
+          info: "hsl(var(--alert-info))",
+        },
+        /* Emergency module colors */
+        emergency: {
+          fire: "hsl(var(--fire-emergency))",
+          earthquake: "hsl(var(--earthquake-emergency))",
+          flood: "hsl(var(--flood-emergency))",
+          medical: "hsl(var(--medical-emergency))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
